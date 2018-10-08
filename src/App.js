@@ -1,25 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import DataTable from './data_table.jsx';
+import * as Util from './util.js';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <DataTable endpointName="Bonding" url={Util.bondingURL}/>
+        <DataTable endpointName="Unbonding" url={Util.unbondingURL}/>
+        <DataTable endpointName="Injections" url={Util.injectionsURL}/>
+        <DataTable endpointName="Battery" url={Util.batteryURL}/>
+        <DataTable endpointName="Temperature" url={Util.temperatureURL}/>
+        <DataTable endpointName="Errors" url={Util.errorsURL}/>
       </div>
     );
   }
