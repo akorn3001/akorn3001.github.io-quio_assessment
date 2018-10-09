@@ -43,6 +43,9 @@ class App extends Component {
             date are allowed, and vice versa. After the user has selected both
             start and end dates, they may submit this date range to see only the
             data between those dates.
+            <br />
+            <br />
+            To review the code, please visit the <a href="https://github.com/akorn3001/quio-assessment">GitHub for this repository</a>.
           </p>
         </div>
         <Tables />

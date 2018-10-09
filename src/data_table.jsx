@@ -109,7 +109,7 @@ class DataTable extends Component {
       button = resetDataButton;
 
       calendars =
-      <div>
+      <div className="calendars">
         <span>Start Date: </span>
         <Calendar
           action={this.handleStartDate}
