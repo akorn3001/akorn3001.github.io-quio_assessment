@@ -1,10 +1,56 @@
-/* .App {
+body {
+  background-color: #E9EBEE;
+}
+
+.preamble  {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.preamble h1, .preamble h2 {
   text-align: center;
-} */
+}
+
+p {
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
 
 table, th, td {
   border: 1px solid black;
   padding: 2px;
   font-weight: bold;
   text-align: center;
+}
+
+.table-name {
+  text-align: center;
+}
+
+.tables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.getOrHideData {
+  margin: 0 auto;
+  display: block;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #626263;
+  color: #FFF;
+}
+
+tbody tr:nth-child(even){
+  background-color: #FFF;
+}
+
+#date-label, #value-label {
+  background-color: #204582;
+  color: white;
 }
