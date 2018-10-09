@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/akorn3001.github.io-quio_assessment/precache-manifest.71942dd840c3ad90a81e3a8acfd00811.js"
+  "/quio_assessment/precache-manifest.711fc8527b53dac2e8f82cd674d7bf8b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/akorn3001.github.io-quio_assessment/index.html", {
+workbox.routing.registerNavigationRoute("/quio_assessment/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
