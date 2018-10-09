@@ -17,7 +17,7 @@ class App extends Component {
             <br />
             <br />
             Below are six buttons corresponding to
-            the <a href="http://assignment.quio.com/">API endpoints given for this assignment</a>.
+            the API endpoints given for this assignment.
             Rather than making an API call in the componentDidMount lifecycle hook,
             I opted instead to include buttons which trigger axios requests so that
             the data is only called when needed. Additionally the use of buttons
