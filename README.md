@@ -3,7 +3,7 @@
 
 This coding assignment was done using React.JS, bootstrapped with [create-react-app](https://github.com/facebook/create-react-app). The calendars used for submitting a date range are from the [react-datepicker](https://reactdatepicker.com/) library.
 
-There are six buttons corresponding to the API endpoints given for this assignment. Rather than making an API call in the componentDidMount lifecycle hook, I opted instead to include buttons which trigger axios requests so that the data is only called when needed. Additionally the use of buttons for this purpose makes it very straightforward to mix and match one or several of the endpoints you'd like to see. I chose axios because it works well with React and has broad browser support.
+There are six buttons corresponding to the API endpoints given for this assignment. Rather than making an API call in the `componentDidMount` lifecycle hook, I opted instead to include buttons which trigger axios requests so that the data is only called when needed. Additionally the use of buttons for this purpose makes it very straightforward to mix and match one or several of the endpoints you'd like to see. I chose axios because it works well with React and has broad browser support.
 
 When the **Get Data** button is pressed and the axios request is made, the JSON data is used to populate a table. The table is its own React component with internal state. The data is saved in two slices of the table's internal state - `_data`, and `store`. The `_data` slice of state is meant to hold all the data and never change, avoiding the need for any extra API calls in the future, while the `store` slice of state is meant to reflect any changes from the filtering process.
 
