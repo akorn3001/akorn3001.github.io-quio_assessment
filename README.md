@@ -9,4 +9,4 @@ When the **Get Data** button is pressed and the axios request is made, the JSON 
 
 The user will see two calendar inputs for inputting a start date and an end date to create a date range for filtering the tables. I have conditionally allowed for only valid start and end dates to be selected. For instance, only end dates after the selected start date are allowed, and vice versa. I have also allowed for a minimum start date of one year in the past, as I believe this is consistent with the data. After the user has selected both start- and end-dates, they may submit this date range to see only the data between those dates.
 
-To review the code, please visit the [GitHub for this repository](https://github.com/akorn3001/quio-assessment).
+To review the code, please visit the [GitHub repository](https://github.com/akorn3001/quio-assessment).

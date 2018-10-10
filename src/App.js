@@ -45,7 +45,7 @@ class App extends Component {
             data between those dates.
             <br />
             <br />
-            To review the code, please visit the <a href="https://github.com/akorn3001/quio-assessment">GitHub for this repository</a>.
+            To review the code, please visit the <a href="https://github.com/akorn3001/quio-assessment">GitHub repository</a>.
           </p>
         </div>
         <Tables />
